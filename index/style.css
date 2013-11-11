@@ -1,0 +1,298 @@
+#mainContent{
+	width:100%;
+	height:100%;
+}
+
+#mainContent #topContainer{
+	width:100%;
+	height:74%;
+	overflow:hidden;
+}
+
+#mainContent #topContainer #background{
+	width:24%;
+	height:100%;
+}
+
+#mainContent #topContainer #background img{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:50%;
+}
+
+#mainContent #topContainer #background  #cloudMotionContainer {
+	position:absolute;
+	left:-30%;
+	width:130%;
+	height:15%;
+}
+
+#mainContent #topContainer #background  #cloudMotionContainer .cloud{
+	position:absolute;
+	width:30%;
+	height:100%;
+}
+
+#mainContent #building{
+	width:75%;
+	height:100%;
+	background-color:#ffd39b; /*<!--#FFD39B;-->*/
+	border:1px solid black;
+	border-style:none solid;
+background-image: linear-gradient(left top, rgb(250,235,160) 75%, rgb(245,226,184) 25%);
+background-image: -o-linear-gradient(left top, rgb(250,235,160) 75%, rgb(245,226,184) 25%);
+background-image: -moz-linear-gradient(left top, rgb(250,235,160) 75%, rgb(245,226,184) 25%);
+background-image: -webkit-linear-gradient(left top, rgb(250,235,160) 75%, rgb(245,226,184) 25%);
+background-image: -ms-linear-gradient(left top, rgb(250,235,160) 75%, rgb(245,226,184) 25%);
+background-image: -webkit-gradient(linear,left top,right bottom,color-stop(0.75, rgb(250,235,160)),color-stop(0.25, rgb(245,226,184)));
+
+	/**
+		background-image: linear-gradient(10 10, rgb(255,244,92) 0%, rgb(255,3,45) 100%);
+		background-image: -o-linear-gradient(10 10, rgb(255,244,92) 0%, rgb(255,3,45) 100%);
+		background-image: -moz-linear-gradient(10 10, rgb(255,244,92) 0%, rgb(255,3,45) 100%);
+		background-image: -webkit-linear-gradient(10 10, rgb(255,244,92) 0%, rgb(255,3,45) 100%);
+		background-image: -ms-linear-gradient(10 10, rgb(255,244,92) 0%, rgb(255,3,45) 100%);
+		background-image: -webkit-gradient(linear, 10 10, right bottom, color-stop(0, rgb(255,244,92)), color-stop(1, rgb(255,3,45)));
+	*/
+}
+
+#mainContent #building #overhang{
+	margin-left:-2%;
+	width:102%;
+	height:25%;
+}
+
+#mainContent #building #overhang #sectionContainer, #building #overhang #logoContainer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #building #overhang #sectionContainer .overhangSection{
+	width:4%;
+	height:100%;
+	border-bottom-right-radius: 35%;
+	border-bottom-left-radius: 35%;
+	background-color:red;
+	border-bottom-style:solid;
+}
+
+#mainContent #building #overhang #logoContainer #logo{
+	display:block;
+	margin:auto;
+	width:30%;
+	height:75%;
+	min-width:5em;
+	min-height:2em;
+}
+
+#mainContent #building #addressRow{
+	width:100%;
+	height:10%;
+}
+
+#mainContent #building #addressRow #address{
+	text-align:center;
+	font-size:1em;
+	font-weight:bold;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #building #door{
+	margin-left:8%;
+	margin-bottom:0;
+	width:16%;
+	height:65%;
+}
+
+#mainContent #building #door #doorContents{
+	width:100%;
+	height:50%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+#mainContent #building #door #doorFrame{
+	width:100%;
+	height:100%;
+	border:0.1em solid black;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#mainContent #building #door #doorFrame .doorElement{
+	border:0.1em solid black;
+	background-color:red;
+}
+
+#mainContent #building #door #doorFrame #doorTop{
+	height:50%; 
+	width:100%;
+}
+
+#mainContent #building #door #doorFrame #doorTop #doorSign{
+	position:absolute;
+	top:10%;
+	left:10%;
+	width:80%;
+	height:80%;
+}
+
+#mainContent #building #door #doorFrame #doorTop #doorSign #doorStrings{
+	width:100%;
+	height:25%;
+}
+
+#mainContent #building #door #doorFrame #doorTop #doorSign #doorHours{
+	width:100%;
+	height:75%;
+}
+
+#mainContent #building #door #doorFrame #doorBottom{
+	height:50%; 
+	width:100%;
+}
+
+#mainContent #building #door #doorFrame #doorBottom #doorHandle{
+	border-radius:100%;
+	width:15%;
+	height:15%;
+	margin-left:80%;
+	margin-top:5%;
+	background-color:yellow;	
+}		
+
+#mainContent #building #mouseListenerForDoor{
+	position:absolute;
+	left:8%;
+	bottom:32.5%; /*Half of door height (65%)*/
+	width:16%;
+	height:32.5%; /*Half of door height (65%)*/
+}
+
+#mainContent #building #openCloseSign{
+	margin-left:1%;
+	margin-top:5%;
+	width:13%;
+	height:10%;
+}
+
+#mainContent #building #window{
+	margin-left:1%;
+	width:40%;
+	height:50%;
+}
+
+#mainContent #building #window .shutter{
+	position:absolute;
+	top:0;
+	width:15%;
+	height:100%;
+}
+
+#mainContent #building #window #leftShutter{left:0;}
+#mainContent #building #window #rightShutter{right:0;}
+
+#mainContent #building #window #slideshow {  
+	position:absolute;
+	bottom:0;
+	left:15%;
+	height:90%; 
+	width:70%; 
+	border:0.1em solid black;
+}
+
+#mainContent #building #window #slideshow img{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+}
+
+#mainContent #building #window #slideshow img.active {
+	z-index:10;
+}
+
+#mainContent #building #window #slideshow img.last-active {
+	z-index:9;
+}
+
+#mainContent #building #window #windowWritingContainer{
+	position:absolute;
+	bottom:0;
+	left:15%;
+	width:70%;
+	height:12.5%;
+	z-index:12;
+	background-color:white;
+	opacity:0.5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+	display:table;
+	overflow:hidden;
+}
+
+#mainContent #building #window #windowWritingContainer .windowWriting{
+	width:100%;
+	height:100%;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	color:red;
+	font-size:0.8em;
+	font-weight:bold;
+	opacity:1;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#mainContent #sidewalk{
+	width:100%;
+	height:16%;
+	/*background-color:grey;
+	border:1px solid black;
+	border-style:solid none solid none;*/
+}
+
+#mainContent #sidewalk #sidewalkTop{
+	height:70%;
+	width:100%;
+	background-color:grey;
+	border-top:1px solid black;
+}
+
+#mainContent #sidewalk #sidewalkTop .sidewalkLine{
+	width:0;
+	height:100%;
+	border:0.1em solid black;
+	margin-right:19%;
+}
+
+#mainContent #sidewalk #sidewalkTop #lastSidewalkLine{
+	margin-right:0;
+}
+
+#mainContent #sidewalk #sidewalkFront{
+	width:100%;
+	height:30%;
+	border-top:0.2em solid black;
+	background-color:grey;
+}
+
+#mainContent #gumballMachine{
+	position: absolute;
+	top: 33%;
+	left: 87%;
+	width: 10%;
+	height: 47%;
+}
+
+#loadedContent{
+	display:none;
+}

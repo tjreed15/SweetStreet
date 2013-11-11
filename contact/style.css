@@ -1,0 +1,117 @@
+#mainContent{
+	width:100%;
+	height:100%;
+	background-color:blue;
+	background-image: linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(0,81,242)),color-stop(0, rgb(182,217,212)));
+	display:none;
+}
+
+#mainContent #book{
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	width: 70%;
+	height: 70%;
+}
+
+#mainContent #book #bookImage{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#mainContent #book #leftPage{
+	position: absolute;
+	top: 8%;
+	left: 8%;
+	width: 41%;
+	height: 80%;
+}
+
+#mainContent #book #leftPage #logoContainer{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 25%;
+}
+
+#mainContent #book #leftPage #logoContainer #logo{
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	height:100%;
+	width:80%;
+}
+
+#mainContent #book #leftPage #addressBox{
+	position: absolute;
+	top: 30%;
+	left: 0%;
+	width: 100%;
+	height: 50%;
+	display:table;
+	overflow:hidden;
+}
+
+#mainContent #book #leftPage  #addressBox p{margin:0; margin-top:2%;}
+#mainContent #book #leftPage  #addressBox address{margin-left:10%;}
+
+#mainContent #book #leftPage #socialMediaBox{
+	position: absolute;
+	bottom: 0%;
+	left: 25%;
+	width: 50%;
+	height: 10%;
+}
+
+#mainContent #book #leftPage #socialMediaBox .mediaButton{height:100%; width:20%; margin-right:5%;}
+
+#mainContent #book #rightPage{
+	position: absolute;
+	top: 8%;
+	left: 54%;
+	width: 40%;
+	height: 82%;
+}
+
+#mainContent #book #rightPage #map{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+#mainContent #street{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:10%;
+	background-color:black;
+}
+
+#mainContent #street {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:10%;
+	background-color:black;
+}

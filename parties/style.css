@@ -1,0 +1,214 @@
+#mainContent{
+	width:100%;
+	height:100%;
+	background-color:blue;
+	background-image: linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(0,81,242)),color-stop(0, rgb(182,217,212)));
+	display:none;
+}
+
+#mainContent #rightOfNav{
+	position:absolute;
+	margin-left:24%;
+	width:75%;
+	height:100%;
+}
+
+#mainContent #rightOfNav #aboveCart{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:35%;
+}
+
+#mainContent #rightOfNav #aboveCart #umberella{
+	width:50%;
+	height:100%;
+}
+
+#mainContent #rightOfNav #aboveCart #umberella #overhang{
+	position:absolute;
+	left:0;
+	top:0;
+	width:75%;
+	height:75%;
+}
+
+#mainContent #rightOfNav #aboveCart #umberella #pole{
+	position:absolute;
+	top:15%;
+	left:22.5%;
+	width:40%;
+	height:100%;
+}
+
+#mainContent #rightOfNav #aboveCart #balloonNav{
+	position:absolute;
+	top:0;
+	right:0;
+	width:49%;
+	height:100%;
+}
+
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper{
+	position:absolute;
+	bottom:0;
+}
+
+#mainContent #rightOfNav #aboveCart #balloonNav #partyFavorsWrapper{left:0%; width:50%; height:75%;} 
+#mainContent #rightOfNav #aboveCart #balloonNav #scavengerHuntsWrapper{left:20%; width:30%; height:85%;} 
+#mainContent #rightOfNav #aboveCart #balloonNav #candyBuffetsWrapper{left:40%; width:25%; height:100%;} 
+#mainContent #rightOfNav #aboveCart #balloonNav #specialOrdersWrapper{left:50%; width:30%; height:85%;} 
+#mainContent #rightOfNav #aboveCart #balloonNav #balloonsWrapper{left:50%; width:50%; height:75%;} 
+
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper .balloon{
+	width:100%;
+	height:100%;
+}
+
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper .poppedBalloon{
+	position:absolute;
+	top:-5%%;
+	display:none;
+}
+	
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #partyFavorsPoppedBalloon{left:-5%; width:55%; height:45%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #scavengerHuntsPoppedBalloon{left:-5%; width:90%; height:40%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #candyBuffetsPoppedBalloon{top:-2%; left:-5%; width:95%; height:33%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #specialOrdersPoppedBalloon{left:30%; width:80%; height:40%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #balloonsPoppedBalloon{left:50%; width:55%; height:45%;}
+	
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper .title {
+	position:absolute;
+	top:0;
+	display:table;
+	overflow:hidden;
+	text-align:center;
+}	
+
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #partyFavorsTitle{left:0%; width:40%; height:29%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #scavengerHuntsTitle{left:-5%; width:80%; height:30%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #candyBuffetsTitle{left:-5%; width:85%; height:23%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #specialOrdersTitle{left:30%; width:70%; height:30%;}
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper #balloonsTitle{left:50%; width:50%; height:35%;}
+	
+#mainContent #rightOfNav #aboveCart #balloonNav .wrapper .title p{
+	display:table-cell;
+	vertical-align:middle;
+	color:red;
+	font-weight:bold;
+	text-shadow:0.1em 0.1em black;
+	cursor:pointer;
+}
+
+#mainContent #rightOfNav #aboveCart #balloonNav  .selectedBalloon{display:none !important;}
+#mainContent #rightOfNav #aboveCart #balloonNav  .selectedPoppedBalloon{display:block !important;}
+
+#mainContent #rightOfNav #aboveCart #mouseHandle{
+	position:absolute;
+	top:0;
+	right:0;
+	width:49%;
+	height:100%;
+}
+
+#mainContent #rightOfNav #aboveCart #mouseHandle .mouseHandler{
+	position:absolute;
+	height:22%;
+	width:20%;
+}
+
+#mainContent #rightOfNav #aboveCart #mouseHandle #partyFavorsMouseHandle{left:0%; top:25%;} 
+#mainContent #rightOfNav #aboveCart #mouseHandle #scavengerHuntsMouseHandle{left:20%; top:15%;} 
+#mainContent #rightOfNav #aboveCart #mouseHandle #candyBuffetsMouseHandle{left:40%; top:0%;} 
+#mainContent #rightOfNav #aboveCart #mouseHandle #specialOrdersMouseHandle{left:60%; top:16%;} 
+#mainContent #rightOfNav #aboveCart #mouseHandle #balloonsMouseHandle{left:79%; top:26%;} 
+
+#mainContent #rightOfNav #cart{
+	position:absolute;
+	top:35%;
+	left:10%;
+	width:80%;
+	height:50%;
+	background-color:red;
+	border:0.1em solid black;
+	
+background-image: linear-gradient(left top, rgb(255,0,0) 63%, rgb(247,57,57) 25%);
+background-image: -o-linear-gradient(left top, rgb(255,0,0) 63%, rgb(247,57,57) 25%);
+background-image: -moz-linear-gradient(left top, rgb(255,0,0) 63%, rgb(247,57,57) 25%);
+background-image: -webkit-linear-gradient(left top, rgb(255,0,0) 63%, rgb(247,57,57) 25%);
+background-image: -ms-linear-gradient(left top, rgb(255,0,0) 63%, rgb(247,57,57) 25%);
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	right bottom,
+	color-stop(0.63, rgb(255,0,0)),
+	color-stop(0.25, rgb(247,57,57))
+);
+}
+
+#mainContent #rightOfNav #cart #logo{
+	position:absolute;
+	top:0%;
+	left:0%;
+	right:0%;
+	margin:auto;
+	width:85%;
+	height:90%;
+}
+
+#mainContent #rightOfNav #cart #textArea{
+	position:absolute;
+	left:0;
+	right:0;
+	top:25%;
+	margin:auto;
+	width:75%;
+	height:75%;
+}
+
+#mainContent #rightOfNav #cart #textArea p{
+	text-shadow:
+    -0.1em -0.1em 0 white,
+    0.1em -0.1em 0 white,
+    -0.1em 0.1em 0 white,
+    0.1em 0.1em 0 white; 
+}
+
+#mainContent #rightOfNav #wheelContainer{
+	position:absolute;
+	bottom:10%;
+	left:0;
+	width:100%;
+	height:20%;
+}
+
+#mainContent #rightOfNav #wheelContainer #bigWheel{
+	height:100%;
+	width:20%;
+	position:absolute;
+	bottom:0;
+	left:0%;
+}
+
+#mainContent #rightOfNav #wheelContainer #smallWheel{
+	height:100%;
+	width:20%;
+	position:absolute;
+	bottom:0;
+	right:0%;
+}
+
+#mainContent #street{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:10%;
+	background-color:black;
+}

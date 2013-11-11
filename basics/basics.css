@@ -1,0 +1,140 @@
+html{
+	height:100%;
+	width:100%;
+}
+
+body{
+	margin:0;
+	height:100%;
+	width:100%;
+	min-width:60em;
+	min-height:30em;
+	background-color:blue;
+	background-image: linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(0,81,242)),color-stop(0, rgb(182,217,212)));
+	overflow:hidden;
+}
+
+div{
+	position:relative;
+	float:left;
+}
+
+img{
+	width:100%;
+	height:100%;
+	background-color:transparent;
+}
+
+p, h1, h2, h3, h4, h5, h6, h7, address{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	margin:0;
+}
+
+#street{
+	position:absolute;
+	top:90%;
+	left:0;
+	width:100%;
+	height:10%;
+	background-color:black;
+}
+
+#street #streetLineContainer{
+	width:100%;
+	height:12.5%;
+	position:absolute;
+	bottom:0.1em;
+}
+
+#street #streetLineContainer .streetLine{
+	width:3.5%;
+	height:100%;
+	background-color:yellow;
+	border-bottom:0.1em solid black;
+	margin-right:7%;
+}
+
+#street #streetLineContainer #lastStreetLine{margin-right:0%;}
+
+#muteButton{
+	position:absolute;
+	top:0;
+	right:0;
+	width:5%;
+	height:5%;
+}
+
+#loading{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+
+#loading #writing{
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	font-size:5em;
+	text-align:center;
+	top:50%;
+}
+
+#loading #loadingGIF{
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	top:10%;
+	height:25%;
+	width:30%;
+}
+
+#firstVisit{
+	width:50%;
+	height:90%;
+	position:absolute;
+	top:5%;
+	left:25%;
+	z-index:100;
+	background-color:white;
+	border:1em solid black;
+	border-radius:5%;
+}
+
+#firstVisit #firstVisitWriting{
+	width:100%;
+	text-align:center;
+	font-size:2em;
+}
+
+#firstVisit #firstVisitImg{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:5%;
+	height:50%;
+	width:80%;
+}
+
+#firstVisit #exitFirstVisit{
+	position:absolute;
+	top:-5%;
+	right:-5%;
+	height:10%;
+	width:10%;
+}
+
+#firstVisit #claimFirstVisit{
+	width:25%;
+	height:10%;
+	margin-top:3%;
+	margin-left:37.5%;
+}
+
