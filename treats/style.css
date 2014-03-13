@@ -1,0 +1,288 @@
+p{
+	margin:0.5em;
+	font-weight:bold;
+	color: black;
+    text-shadow:
+    -0.1em -0.1em 0 cyan,
+    0.1em -0.1em 0 cyan,
+    -0.1em 0.1em 0 cyan,
+    0.1em 0.1em 0 cyan; 
+}
+
+#mainContent{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	min-width:60em;
+	min-height:30em;
+	background-color:blue;
+	background-image: linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(0,81,242)),color-stop(0, rgb(182,217,212)));
+	display:none;
+}
+
+#mainContent #banner{
+	width:100%;
+	height:10%;
+}
+
+#mainContent #banner #cloudContainer{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin:auto;
+	width:50%;
+	height:100%;
+	text-align:center;
+}
+
+#mainContent #banner #cloud{
+	position:absolute;
+	left:0;
+	right:0;
+	top:-25%;
+	margin:auto;
+	width:50%;
+	height:125%;
+	text-align:center;
+}
+
+#mainContent #banner #cloudContainer h1{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin:auto;
+}
+
+#mainContent #city{
+	width:100%;
+	height:80.5%;
+}
+
+#mainContent #city #cityBackground{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #city #cityBackground #background{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #city #cityBackground #contentP{
+	position:absolute;
+	top:3%;
+	left:27%;
+	padding-left:1em;
+	height:50%;
+	width:23%;
+	/**background-color:white;
+	opacity:0.25;
+	filter:alpha(opacity=25); /* For IE8 and earlier */
+}
+
+#mainContent #city #cityBackground #contentP #textContent{
+	font-weight:bold;
+	z-index:12;
+}
+
+#mainContent #city #cityBackground #contentI{
+	position:absolute;
+	top:0;
+	left:63%;
+	padding:0.1em;
+	height:50%;
+	width:15%;
+	/**background-color:white;
+	opacity:0.25;
+	filter:alpha(opacity=25); /* For IE8 and earlier */
+}
+
+#mainContent #city #cityBackground #contentI #imageContent{
+	z-index:11;
+}
+
+#mainContent #city #cityForeground{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #city #cityForeground #truckContainer{
+	position:absolute;
+	bottom:0;
+	left:30%;
+	width:45%;
+	height:60%;
+}
+
+#mainContent #city #cityForeground #truckContainer img{
+	position:absolute;
+	bottom:0;
+}
+
+#mainContent #city #cityForeground #truckContainer .tire{
+	position:absolute;
+	bottom:0;
+	width:18%;
+	height:45%;
+	border-radius:100%;
+}
+
+#mainContent #city #cityForeground #truckContainer #stuffedAnimal{left:2%;}
+#mainContent #city #cityForeground #truckContainer #pillows{left:59.5%;}
+#mainContent #city #cityForeground #truckContainer #jewelry{left:81%;}
+
+
+#mainContent #city #cityForeground #truckContainer .tire .itemBackground{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border-radius:100%;
+	background-color:white;
+	opacity:0; /*.35 */
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+}
+
+#mainContent #city #cityForeground #truckContainer .tire .itemWrapper{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:15;
+	width:100%;
+	height:100%;
+	border-radius:100%;
+	display:table;
+	overflow:hidden;
+	text-align:center;
+}
+
+#mainContent #city #cityForeground #truckContainer .tire .itemWrapper p{
+	z-index:16;
+	font-weight:bold;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#mainContent #city #cityForeground #streetLight{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:20%;
+	height:100%;
+}
+
+#mainContent #city #cityForeground #streetLight #pole{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	margin-right:auto;
+	margin-left:auto;
+	border:0.1em solid black;
+	background-color:#555555;
+	height:90%;
+	width:5%;
+	box-shadow:0.1em 0.1em;
+}
+
+#mainContent #city #cityForeground #streetLight #lightTop{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	margin-right:auto;
+	margin-left:auto;
+	border:0.1em solid black;
+	width:30%;
+	height:50%;
+	border-radius:5%;
+	box-shadow:0.1em 0.1em;
+	background-color:grey;
+background-image: linear-gradient(left top, rgb(199,185,199) 100%, rgb(97,95,95) 0%);
+background-image: -o-linear-gradient(left top, rgb(199,185,199) 100%, rgb(97,95,95) 0%);
+background-image: -moz-linear-gradient(left top, rgb(199,185,199) 100%, rgb(97,95,95) 0%);
+background-image: -webkit-linear-gradient(left top, rgb(199,185,199) 100%, rgb(97,95,95) 0%);
+background-image: -ms-linear-gradient(left top, rgb(199,185,199) 100%, rgb(97,95,95) 0%);
+background-image: -webkit-gradient(linear,left top,right bottom,color-stop(1, rgb(199,185,199)),color-stop(0, rgb(97,95,95)));
+}
+
+#mainContent #city #cityForeground #streetLight #lightTop #lightContainer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 85%;
+	height: 100%;
+}
+
+#mainContent #city #cityForeground #streetLight #lightTop #lightContainer .light{
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 8%;
+	border: 0.1em solid black;
+	width: 90%;
+	height: 29%;
+	border-radius: 100%;
+}
+
+#mainContent #city #cityForeground #streetLight #lightTop #lightContainer #greenLight{background-color:#00ff00;}
+#mainContent #city #cityForeground #streetLight #lightTop #lightContainer #yellowLight{background-color:#ffff00;}
+#mainContent #city #cityForeground #streetLight #lightTop #lightContainer #redLight{background-color:#ff0000;}
+
+#mainContent #city #cityForeground #streetLight #lightTop #labelContainer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #city #cityForeground #streetLight #lightTop #labelContainer .label{
+	float:none;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:8%;
+	width:90%;
+	height:30%;
+	border-radius:100%;
+	text-align:center;
+	display:table;
+	overflow:hidden;
+}
+
+#mainContent #city #cityForeground #streetLight #lightTop #labelContainer .label p{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#mainContent #street{
+	width:100%;
+	height:10%;
+	background-color:black;
+}
+
+#mainContent #street .streetLine{
+	
+}
+

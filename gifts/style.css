@@ -1,0 +1,183 @@
+body{
+	background-color:blue;
+	background-image: linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(0,81,242)),color-stop(0, rgb(182,217,212)));
+}
+
+#mainContent{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	min-width:60em;
+	min-height:30em;
+	display:none;
+}
+
+#mainContent  #rightOfNav{
+	position:absolute;
+	top:0%;
+	left:24%;
+	width:75%;
+	height:100%;
+}
+
+#mainContent #rightOfNav  #tree{
+	width:100%;
+	height:100%;
+}
+
+#mainContent #rightOfNav #balls{
+	width:96%;
+	height:49%;
+	position:absolute;
+	left:2%;
+}
+
+#mainContent #rightOfNav #mouseHandle{
+	width:96%;
+	height:49%;
+	position:absolute;
+	left:2%;
+}
+
+#mainContent #rightOfNav #balls .ballWrapper{
+	position:absolute;
+	width:15%;
+	height:25%;
+}
+
+#mainContent #rightOfNav #mouseHandle .mouseHandler{
+	position:absolute;
+	width:15%;
+	height:25%;
+}
+
+#mainContent #rightOfNav #balls #kabobsBallWrapper{top:3%; left:0%;}
+#mainContent #rightOfNav #mouseHandle #kabobsMouseHandler{top:3%; left:0%;}
+#mainContent #rightOfNav #balls #leisBallWrapper{top:48%; left:3%;}
+#mainContent #rightOfNav #mouseHandle #leisMouseHandler{top:48%; left:3%;}
+#mainContent #rightOfNav #balls #basketsBallWrapper{top:59%; left:21%;}
+#mainContent #rightOfNav #mouseHandle #basketsMouseHandler{top:59%; left:21%;}
+#mainContent #rightOfNav #balls #boxesBallWrapper{top:62%; left:41.5%;}
+#mainContent #rightOfNav #mouseHandle #boxesMouseHandler{top:62%; left:41.5%;}
+#mainContent #rightOfNav #balls #bouquetsBallWrapper{top:61%; left:62%;}
+#mainContent #rightOfNav #mouseHandle #bouquetsMouseHandler{top:61%; left:62%;}
+#mainContent #rightOfNav #balls #partyFavorsBallWrapper{top:50%; left:80%;}
+#mainContent #rightOfNav #mouseHandle #partyFavorsMouseHandler{top:50%; left:80%;}
+#mainContent #rightOfNav #balls #corporateGiftsBallWrapper{top:4%; left:83%;}
+#mainContent #rightOfNav #mouseHandle #corporateGiftsMouseHandler{top:4%; left:83%;}
+
+#mainContent #rightOfNav #balls .ballWrapper .ball{
+	position:absolute;
+	top:0%;
+	left:0%;
+	right:0%;
+	margin:auto;
+	width:33%;
+	height:65%;
+	border:0.1em solid black;
+	border-radius:100%;
+}
+
+#mainContent #rightOfNav #balls .ballWrapper .label{
+	position:absolute;
+	bottom:0%;
+	width:100%;
+	margin:0;
+	text-align:center;
+	font-weight:bold;
+    text-shadow:
+		-0.1em -0.1em 0 black,
+		0.1em -0.1em 0 black,
+		-0.1em 0.1em 0 black,
+		0.1em 0.1em 0 black,
+		-0.1em 0 0 black,
+		0.1em 0 0 black,
+		0 -0.1em 0 black,
+		0 0.1em 0 black; 
+}
+
+#mainContent #rightOfNav #balls .ballWrapper #kabobsLabel{color:purple;}
+#mainContent #rightOfNav #balls .ballWrapper #kabobsBall{background-color:purple;}
+#mainContent #rightOfNav #balls .ballWrapper #leisLabel{color:cyan;}
+#mainContent #rightOfNav #balls .ballWrapper #leisBall{background-color:cyan;}
+#mainContent #rightOfNav #balls .ballWrapper #basketsLabel{color:yellow;}
+#mainContent #rightOfNav #balls .ballWrapper #basketsBall{background-color:yellow;}
+#mainContent #rightOfNav #balls .ballWrapper #boxesLabel{color:red;}
+#mainContent #rightOfNav #balls .ballWrapper #boxesBall{background-color:red;}
+#mainContent #rightOfNav #balls .ballWrapper #bouquetsLabel{color:blue;}
+#mainContent #rightOfNav #balls .ballWrapper #bouquetsBall{background-color:blue;}
+#mainContent #rightOfNav #balls .ballWrapper #partyFavorsLabel{color:lime;}
+#mainContent #rightOfNav #balls .ballWrapper #partyFavorsBall{background-color:lime;}
+#mainContent #rightOfNav #balls .ballWrapper #corporateGiftsLabel{color:orange;}
+#mainContent #rightOfNav #balls .ballWrapper #corporateGiftsBall{background-color:orange;}
+
+#mainContent #rightOfNav #textArea{
+	position:absolute;
+	left:16%;
+	top:2%;
+	width:66%;
+	height:27%;
+	display:table;
+	overflow:hidden;
+}
+
+#mainContent #rightOfNav #textArea p{
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+	text-shadow:
+		-0.1em -0.1em 0 white,
+		0.1em -0.1em 0 white,
+		-0.1em 0.1em 0 white,
+		0.1em 0.1em 0 white,
+		-0.1em 0 0 white,
+		0.1em 0 0 white,
+		0 -0.1em 0 white,
+		0 0.1em 0 white;  
+}
+
+#mainContent #rightOfNav #treeSign{
+	width: 35%;
+	height: 18%;
+	border: 1px solid black;
+	position: absolute;
+	top: 60%;
+	left: 32%;
+	background-color: white;
+	border-radius:5%;
+	display:table;
+	overflow:hidden;
+}
+
+#mainContent #rightOfNav #treeSign p{
+	margin:0;
+	color:red;
+	display:table-cell;
+	vertical-align:middle;
+	font-weight:bold;
+	text-align:center;
+}
+
+#mainContent #rightOfNav #signPin{
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	width: 3%;
+	height: 6%;
+}
+
+#street{
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:10%;
+	width:100%;
+	background-color:black;
+}

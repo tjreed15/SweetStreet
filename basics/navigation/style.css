@@ -1,0 +1,100 @@
+/*
+.navigationContainer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:24%;
+	height:100%;
+	min-width:14.4em;
+	min-height:26.7em;
+}
+*/
+
+#navigation{
+	position:absolute;
+	top:0;
+	left:0;
+	height:90%;
+	width:24%;
+	min-width:14.4em;
+	min-height:26.7em;
+}
+
+#navigation #pole{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	margin-right:auto;
+	margin-left:auto;
+	border:0.1em solid black;
+	background-color:#555555;
+	height:80%;
+	width:5%;
+}
+
+#navigation #signContainer{
+	position:absolute;
+	bottom:0;
+	height:85%;
+	width:100%;
+}
+
+#navigation #signContainer .signWrapper{
+	width:100%;
+	height:10%;
+	margin-bottom:1%;
+}
+
+#navigation #signContainer .signWrapper .sign{
+	width:40%;
+	margin-left:30%;
+	height:100%;
+	/*border:0.1em solid white;
+	border-radius:10%;
+	background-color:red;*/
+	background-color:transparent;
+	background-image:url("blankSignA.png");
+	background-size:100% 100%;
+	text-align:center;
+	display:table;
+	overflow:hidden;
+}
+
+#navigation #signContainer .signWrapper .sign a{
+	color:red;
+	font-size:1em;
+	font-weight:bold;
+	text-decoration:none;
+	display:table-cell;
+	vertical-align:middle;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#navStreet{
+	position:absolute;
+	top:90%;
+	left:0;
+	width:100%;
+	height:10%;
+	background-color:black;
+}
+
+#navStreet #streetLineContainer{
+	width:100%;
+	height:12.5%;
+	position:absolute;
+	bottom:0.1em;
+}
+
+#navStreet #streetLineContainer .streetLine{
+	width:11%;
+	height:100%;
+	background-color:yellow;
+	border-bottom:0.1em solid black;
+	margin-right:22%;
+}
+
+#navStreet #streetLineContainer #lastStreetLine{
+	margin-right:0%;
+}

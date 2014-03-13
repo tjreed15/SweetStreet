@@ -1,0 +1,199 @@
+#mainContent{
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#mainContent #background{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #background #aboveTrain{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:50%;
+}
+
+#mainContent #background #belowTrainLeft{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:50%;
+	height:50%;
+	background-color:tan;
+background-image: linear-gradient(top, rgb(194,178,132) 4%, rgb(194,167,60) 52%);
+background-image: -o-linear-gradient(top, rgb(194,178,132) 4%, rgb(194,167,60) 52%);
+background-image: -moz-linear-gradient(top, rgb(194,178,132) 4%, rgb(194,167,60) 52%);
+background-image: -webkit-linear-gradient(top, rgb(194,178,132) 4%, rgb(194,167,60) 52%);
+background-image: -ms-linear-gradient(top, rgb(194,178,132) 4%, rgb(194,167,60) 52%);
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.04, rgb(194,178,132)),
+	color-stop(0.52, rgb(194,167,60))
+);
+}
+
+#mainContent #background #belowTrainRight{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:50%;
+	height:50%;
+	background-color:green;
+background-image: linear-gradient(top, rgb(50,161,70) 0%, rgb(26,102,0) 73%);
+background-image: -o-linear-gradient(top, rgb(50,161,70) 0%, rgb(26,102,0) 73%);
+background-image: -moz-linear-gradient(top, rgb(50,161,70) 0%, rgb(26,102,0) 73%);
+background-image: -webkit-linear-gradient(top, rgb(50,161,70) 0%, rgb(26,102,0) 73%);
+background-image: -ms-linear-gradient(top, rgb(50,161,70) 0%, rgb(26,102,0) 73%);
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, rgb(50,161,70)),
+	color-stop(0.73, rgb(26,102,0))
+);
+}
+
+#mainContent #smokeContainer{
+	width: 90%;
+	height: 30%;
+	top: 0;
+	right: 12%;
+	position: absolute;
+}
+
+#mainContent #smokeContainer .smoke{
+	position:absolute;
+	width:6%;
+	height:39%;
+}
+
+#mainContent #backStreet{
+	position:absolute;
+	bottom:10%;
+	left:15%;
+	width:85%;
+	height:60%;
+}
+
+#mainContent #tracks{
+	position:absolute;
+	top:50%;
+	left:0%;
+	width:100%;
+	height:20%;
+}
+
+#mainContent #engine{
+	position:absolute;
+	bottom:38%;
+	right:0%;
+	width:41%;
+	height:42%;
+}
+
+#mainContent #trainCar{
+	position:absolute;
+	bottom:38%;
+	left:5%;
+	width:55%;
+	height:55%;
+}
+
+#mainContent #street{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:10%;
+	background-color:black;
+}
+
+#mainContent  #title{
+	left:20%;
+	top:10%;
+	width:25%;
+	height:10%;
+	display:table;
+	overflow:hidden;
+}
+
+#mainContent  #title h1{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#mainContent  #text{
+	position:absolute;
+	top:24%;
+	left:18%;
+	width:39%;
+	height:23%;
+}
+
+#mainContent  #text #textFrame{
+	position:absolute;
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+	border:none;
+}
+
+#mainContent  #text #textFrame body{
+	scrollbar-arrow-color: #252604;
+	scrollbar-highlight-color: #BFC097;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-base-color : #000000;
+	scrollbar-track-color: #E2E1D4;
+	scrollbar-face-color: #BFC097;
+	scrollbar-3dlight-color: #EFEEEE;
+	scrollbar-darkshadow-color: #999999;
+}
+
+#mainContent #engineWindow{
+	position:absolute;
+	top: 32.5%;
+	left: 71.4%;
+	width: 4.75%;
+	height: 7%;
+}
+
+#mainContent #engineWindow #engineWindowPicture{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #engineWindow #engineWindowCover{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:black;
+}
+
+#mainContent #engineWindow #engineWindowCover:hover{
+	opacity:0.01;
+	filter:alpha(opacity=1); /* For IE8 and earlier */
+}
+
+#mainContent #crossingGuard{
+	width: 52%;
+	height: 72%;
+	position: absolute;
+	right: 0;
+	bottom: 23%;
+}

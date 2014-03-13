@@ -1,0 +1,166 @@
+#mainContent{
+	width:100%;
+	height:100%;
+	background-color:blue;
+	background-image: linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,81,242) 100%, rgb(182,217,212) 0%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(0,81,242)),color-stop(0, rgb(182,217,212)));
+	display:none;
+}
+
+#mainContent #cloud{
+	float:none;
+	position:absolute;
+	left:12%;
+	top:-3%;
+	width:38%;
+	height:48%;
+	display:table;
+	overflow:hidden;
+}
+
+#mainContent #cloud #cloudImage{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#mainContent #cloud #cloudWriting{
+	float:none;
+	position:absolute;
+	left:0%;
+	right:0%;
+	margin:auto;
+	width:50%;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+#mainContent #cloud #cloudWriting p{
+	font-weight:bold;
+	color:red;
+	text-shadow:
+		-0.1em -0.1em 0 black,
+		0.1em -0.1em 0 black,
+		-0.1em 0.1em 0 black,
+		0.1em 0.1em 0 black; 
+}
+
+#mainContent #school{
+	position:absolute;
+	right:0;
+	bottom:10%;
+	width:75%;
+	height:90%;
+}
+
+#mainContent #bush1{
+	position:absolute;
+	left:25%;
+	bottom:5%;
+	width:31%;
+	height:20%;
+}
+
+#mainContent #bush2{
+	position:absolute;
+	right:5%;
+	bottom:5%;
+	width:24%;
+	height:20%;
+}
+
+#mainContent #title{
+	position:absolute;
+	left:52%;
+	top:26%;
+	width:20%;
+	height:10%;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+}
+
+#mainContent #title p{
+	padding:0;
+	margin:0;
+	font-size:125%;
+}
+
+#mainContent #window1{
+	position:absolute;
+	top:55%;
+	left:36%;
+	width:18%;
+	height:18%;
+}
+
+#mainContent #window1 #wackyWednesday{
+	color:green;
+	font-weight:bold;
+}
+
+#mainContent #window1 #fantasticFriday{
+	color:blue;
+	font-weight:bold;
+}
+
+#mainContent #window2{
+	position:absolute;
+	top:55%;
+	left:74%;
+	width:18%;
+	height:18%;
+}
+
+#mainContent #window2 #septemberSweetReceipt{
+	color:purple;
+	font-weight:bold;
+}
+
+
+#mainContent #window2 #manicMonday{
+	color:orange;
+	font-weight:bold;
+}
+
+
+#mainContent #window2 #terrificTuesday{
+	color:green;
+	font-weight:bold;
+}
+
+#mainContent #window2 #thirstyThursday{
+	color:red;
+	font-weight:bold;
+}
+
+#mainContent #window2 #thanksgiving{
+	color:orange;
+	font-weight:bold;
+}
+
+#mainContent #window2 #caramelPop{
+	color:green;
+	font-weight:bold;
+}
+
+#mainContent #window2 #weekendWarmUp{
+	color:red;
+	font-weight:bold;
+}
+
+#mainContent #street{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	height:10%;
+	background-color:black;
+}
