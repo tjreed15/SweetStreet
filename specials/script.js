@@ -7,9 +7,13 @@ function changeCloud(itemName){
 	else if(itemName == "manicMonday"){title="Manic Monday";}
 	else if(itemName == "terrificTuesday"){title="Terrific Tuesday";}
 	else if(itemName == "thirstyThursday"){title="Thirsty Thursday";}
+<<<<<<< HEAD
 	else if(itemName == "thanksgiving"){title="Thanksgiving Specials";}
 	else if(itemName == "caramelPop"){title="Caramel Apple Pop Special";}
 	else if(itemName == "weekendWarmUp"){title="Weekend Warm-Ups";}
+=======
+	
+>>>>>>> 122320806a51ddb3289d6b9c06f7e667ef6fb68c
 	if(title != document.getElementById("title").firstChild.innerHTML){
 		playSound("specials/sounds/hover.wav", 0, itemName+"HoverSound");
 		load("cloudWriting", itemLocation);
