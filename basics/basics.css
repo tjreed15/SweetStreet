@@ -87,6 +87,12 @@ p, h1, h2, h3, h4, h5, h6, h7, address{
 	top:50%;
 }
 
+#loading #writing p{
+	outline:none;
+	border:none;
+	text-shadow:none;
+}
+
 #loading #loadingGIF{
 	position:absolute;
 	left:0;
