@@ -16,7 +16,7 @@
 	<?php include_once("basics/loading/loading.php"); ?>
 	<div id="mainContent">
 		<div id="background">
-			<img src="sweets/street2.png" />
+			<img src="sweets/street.png" />
 			<div id="cover"></div>
 		</div>
 		<div id="loadContent">

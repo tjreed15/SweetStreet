@@ -17,7 +17,7 @@
 				<div class="buttonPhoto">
 					<img src="sweets/buttonPicsSmall/<?php echo $category?>.png" />
 				</div>
-				<div id="<?php echo $category;?>Bite" class="bite" style="top:0;"><img src="sweets/bite3.png" /></div>
+				<div id="<?php echo $category;?>Bite" class="bite" style="top:0;"><img src="sweets/biteTop.png" /></div>
 			</div>
 			<div class="mouseListenerCover coverRow1" onMouseOut="hideSign('<?php echo $category;?>');" onMouseOver="showSign('<?php echo $category;?>');" onClick="showContent('<?php echo $category?>')"></div>
 		</div>
@@ -35,7 +35,7 @@
 				<div class="buttonPhoto">
 					<img src="sweets/buttonPicsSmall/<?php echo $category?>.png" />
 				</div>
-				<div id="<?php echo $category;?>Bite" class="bite" style="bottom:0;"><img src="sweets/bite4.png" /></div>
+				<div id="<?php echo $category;?>Bite" class="bite" style="bottom:0;"><img src="sweets/biteBottom.png" /></div>
 			</div>
 			<div id="<?php echo $category;?>SignSquare" class="signSquare">
 				<img src="sweets/signPicsSmall/<?php echo $category?>Sign.png" />
