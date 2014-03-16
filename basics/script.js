@@ -46,7 +46,7 @@ function playSound(src, timeOff, id) {
 			sound.setAttribute('id', id);
 			document.body.appendChild(sound);
 		}
-		if(getCookie() && getCookie('muted')=='muted') {
+		if(getCookie('muted') && getCookie('muted')=='muted') {
 			return;
 		}
 		else{
@@ -110,9 +110,6 @@ function getCookie(c_name){
 //*************************************		Loading Page		**************************************************//
 //****************************************************************************************************************//
 function download(from, after, parameters){
-	if ( (screen.width < 1024) && (screen.height < 768) ) { 
-		window.location.href = 'mobile/index.html';
-	} 
 	if(!getCookie('totalCounter'))setCookie('totalCounter', 'counted', 2*60*60);
 	if(!getCookie(from+'Counter'))setCookie(from+'Counter', 'counted', 2*60*60);
 	node = document.getElementById("loading").style.display = "none";

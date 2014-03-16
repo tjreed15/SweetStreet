@@ -28,14 +28,11 @@
 			<p id="fantasticFriday" onMouseOver="changeCloud('fantasticFriday');">FAN-tastic Friday</p>
 		</div>
 		<div id="window2">
-<<<<<<< HEAD
 			<p id="weekendWarmUp" onMouseOver="changeCloud('weekendWarmUp');">Weekend Warm-Ups</p>
-=======
 			<p id="septemberSweetReceipt" onMouseOver="changeCloud('septemberSweetReceipt');">September Sweet Receipt</p>
 			<p id="manicMonday" onMouseOver="changeCloud('manicMonday');">Manic Monday</p>
 			<p id="terrificTuesday" onMouseOver="changeCloud('terrificTuesday');">Terrific Tuesday</p>
 			<p id="thirstyThursday" onMouseOver="changeCloud('thirstyThursday');">Thirsty Thursday</p>
->>>>>>> 122320806a51ddb3289d6b9c06f7e667ef6fb68c
 		</div>
 		<div id="street">
 			<div id="streetLineContainer">
