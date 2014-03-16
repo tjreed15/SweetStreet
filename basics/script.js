@@ -120,6 +120,12 @@ function download(from, after, parameters){
 	}
 }
 
+function checkMobile(){
+	if ( (screen.width < 1024) && (screen.height < 768) ) { 
+		window.location.href = 'mobile/index.html';
+	} 
+}
+
 
 //****************************************************************************************************************//
 //*************************************			First Visit		**************************************************//

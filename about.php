@@ -12,6 +12,7 @@
 
 </head>
 <body onLoad="preloadSounds('about'); download('about', 'initializeSmoke', null);">
+	<script type="text/javascript"> checkMobile(); </script>
 	<?php include_once("basics/analytics/counter.inc.php"); ?>
 	<?php include_once("basics/loading/loading.php");?>
 	<div id="mainContent">

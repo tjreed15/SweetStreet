@@ -15,6 +15,7 @@
 
 </head>
 <body bgcolor="#E6E6FA" onLoad="download('index', 'downloadPictures', null); preloadSounds('index');">
+	<script type="text/javascript"> checkMobile(); </script>
 	<?php include_once("basics/analytics/counter.inc.php"); ?>
 	<?php //include_once("basics/analytics/giftCertificates/firstVisit.inc.php"); ?>
 	<?php include_once("basics/loading/loading.php");?>
