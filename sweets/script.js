@@ -51,7 +51,7 @@ function showContent(category){
 			row2[i].style['bottom'] = "0";
 			//document.getElementById("candyWrapper").style.visibility = "visible";
 			candyWrapper.style['top'] = '20%';
-			candyWrapper.style['height'] = '60%';
+			candyWrapper.style['height'] = '51%';
 		}
 		selectCategory(category="");
 		currCategory = "";
@@ -125,9 +125,5 @@ function writeToSection(section, string){
 }
 
 function seeMore(category){
-	document.getElementById("seeMore").innerHTML = "<a onClick=\"viewCategory('" + category + "');\">See All</a>";
+	document.getElementById("seeMore").innerHTML = "<a href='basics/textPage.php?section=sweets&file=candyLists/"+category+".txt' target='_blank'>See All</a>";
 }
-
-function viewCategory(category){
-	document.location.href = "basics/textPage.php?section=sweets&file=candyLists/"+category+".txt";
-}	
